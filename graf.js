@@ -1,6 +1,6 @@
 let chartWidth =
- document.getElementById("graf").offsetWidth > 600
-   ? 600
+ document.getElementById("graf").offsetWidth > 400
+   ? 400
    : document.getElementById("graf").offsetWidth;
  
   
@@ -40,7 +40,7 @@ let chartWidth =
     },
     yAxis: {
       title: {
-        text: 'průměrně propadlých míst',
+        text: 'propadlých míst',
       },
       // labels: {
       //   formatter: function() {
@@ -79,7 +79,7 @@ let chartWidth =
     },
     series: [
       {
-        name: 'průměr propadlých míst',
+        name: 'propadlých míst',
         data: [{ y: 284, color: colors['2020'] },
           { y: 78.5, color: colors['2020'] },
           { y: 76, color: colors['2020'] },
