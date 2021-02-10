@@ -21,7 +21,7 @@ let chartWidth =
       align: screenLeft,
     },
     subtitle: {
-      text: 'Průměrný počet propadlých míst den před očkováním',
+      text: 'Průměrný počet propadlých míst den před očkováním, mezi dny od 28.1. do 08.02.2021',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
@@ -40,7 +40,7 @@ let chartWidth =
     },
     yAxis: {
       title: {
-        text: 'propadlých míst',
+        text: 'průměrně propadlých míst',
       },
       // labels: {
       //   formatter: function() {
@@ -79,7 +79,7 @@ let chartWidth =
     },
     series: [
       {
-        name: 'propadlých míst',
+        name: 'průměrně propadlých míst',
         data: [{ y: 284, color: colors['2020'] },
           { y: 78.5, color: colors['2020'] },
           { y: 76, color: colors['2020'] },
