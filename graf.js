@@ -16,12 +16,12 @@ let chartWidth =
   
     },
     title: {
-      text: 'Nemocnice s nejvíce propadlými místy',
+      text: 'Nemocnice s nejvíce propadlými očkovacími místy',
       useHTML: true,
       align: screenLeft,
     },
     subtitle: {
-      text: 'očkování',
+      text: 'Průměrný počet propadlých míst den před očkováním',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
@@ -40,7 +40,7 @@ let chartWidth =
     },
     yAxis: {
       title: {
-        text: 'průměrně propadlých míst za den',
+        text: 'průměrně propadlých míst',
       },
       // labels: {
       //   formatter: function() {
@@ -65,8 +65,8 @@ let chartWidth =
       enabled: false,
     },
     credits: {
-      href: '',
-      text: 'AI',
+      href: 'https://reservatic.com/en',
+      text: 'Zdroj dat: Reservatic',
     },
     plotOptions: {
       column: {
@@ -79,7 +79,7 @@ let chartWidth =
     },
     series: [
       {
-        name: 'průměrně propadlých míst za den',
+        name: 'průměr propadlých míst',
         data: [{ y: 284, color: colors['2020'] },
           { y: 78.5, color: colors['2020'] },
           { y: 76, color: colors['2020'] },
