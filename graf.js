@@ -16,7 +16,7 @@ let chartWidth =
   
     },
     title: {
-      text: 'Nemocnice s nejvíce propadlými očkovacími místy',
+      text: 'Nemocnice s nejvíce neobsazenými očkovacími místy',
       useHTML: true,
       align: screenLeft,
     },
@@ -40,7 +40,7 @@ let chartWidth =
     },
     yAxis: {
       title: {
-        text: 'průměrně propadlých míst',
+        text: 'průměrně neobsazených míst',
       },
       // labels: {
       //   formatter: function() {
@@ -79,7 +79,7 @@ let chartWidth =
     },
     series: [
       {
-        name: 'průměrně propadlých míst',
+        name: 'průměrně neobsazených míst',
         data: [{ y: 284, color: colors['2020'] },
           { y: 78.5, color: colors['2020'] },
           { y: 76, color: colors['2020'] },
