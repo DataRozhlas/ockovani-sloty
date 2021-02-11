@@ -21,7 +21,7 @@ let chartWidth =
       align: screenLeft,
     },
     subtitle: {
-      text: 'Průměrný počet propadlých míst den před očkováním, mezi dny od 28.1. do 08.02.2021',
+      text: 'Průměrný počet neobsazených míst den před očkováním, mezi dny od 28.1. do 08.02.2021',
       // + '<br><span style="color: #fff">.</span>',
       useHTML: true,
       align: screenLeft,
